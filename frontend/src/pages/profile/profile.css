@@ -1,0 +1,317 @@
+.profile{
+    height: auto;
+    overflow-x: hidden;
+}
+
+.profiltopflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    /* border-bottom: 0.1px solid rgba(144, 148, 151, 0.1); */
+    /* background-color: rgba(144, 148, 151, 0.1); */
+}
+
+.bodyp{
+    /* background-color: #ECF0F1; */
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.profilemail{
+    width: 25%;
+    /* margin-top: -2px; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* background-color: #ECF0F1; */
+    /* border: 0.1px solid red; */
+    text-align: right;
+}
+.profilecreatedate{
+    text-align: right;
+    padding-top: 6%;
+    margin-right: 1%;
+    font-weight: bold;
+    color: #5C636A;
+}
+.profilename{
+    width: 25%;
+    margin-left: 1%;
+    font-size: 22px;
+    font-weight: bold;
+}
+.divprofileimg{
+    width: 7%;
+    height: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 12%; */
+    margin-top: 55px;
+    z-index: 6;
+    border-radius: 50%;
+}
+.divprofileimg .userfa{
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+/* -------------------------------------------MODIF PROFIL-------------------------- */
+.modifppp{
+    display: flex;
+    justify-content: center;  
+}
+
+.bodypinfo1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    padding: 6%;
+    background-color: #ECF0F1;
+}
+.bodypinfo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.bodypinfo input{
+    /* width: 300px; */
+    height: 50px;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+.bodypinfo input:focus{
+    box-shadow: none;
+}
+.bodypinfo button{
+    float: right;
+}
+.bodypinfo button:focus{
+    box-shadow: none;
+}
+.gauchemodif{
+    width: 100%;
+    margin: 1%;
+    /* border: 0.1px solid red; */
+}
+.droitemodif{
+    width: 100%;
+    margin: 1%;
+    /* border: 0.1px solid green; */
+}
+.spacetext{
+    padding-left: 5px;
+    vertical-align: middle;
+}
+.spacetext2{
+    padding-left: 5px;
+}
+
+.btnmodif button{
+    height: 50px;
+    color: #fff;
+    width: 25%;
+}
+.btnmodifprofile span{
+    vertical-align: middle;
+}
+.btnmodif{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 1%;
+}
+
+
+
+
+
+/* -------------------------------------------ORDER LIST-------------------------- */
+
+.tablediv2{
+    width: 90%;
+    padding-left: 10%;
+    height: 300px;
+}
+
+table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+}
+table * {
+    position: relative;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table {
+    border-spacing: 1;
+    border-collapse: collapse;
+}
+table thead tr {
+    height: 60px;
+    background: #5C636A;
+}
+table * {
+    position: relative;
+}
+.table100-head th {
+    font-family: OpenSans-Regular;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: unset;
+}
+
+table td, table th {
+    text-align: left;
+}
+table * {
+    position: relative;
+}
+* {
+    margin: 0;
+    padding: 0;
+      padding-left: 0px;
+    box-sizing: border-box;
+}
+table tbody tr {
+    height: 50px;
+}
+tbody tr {
+    font-family: OpenSans-Regular;
+    font-size: 15px;
+    color: gray;
+    line-height: 1.2;
+    font-weight: unset;
+}
+.column1 {
+    /* width: 260px; */
+    padding-left: 40px;
+}
+table td, table th {
+    text-align: left;
+}
+table td, table th {
+    padding-left: 8px;
+}
+tbody tr {
+    font-family: OpenSans-Regular;
+    font-size: 15px;
+    color: gray;
+    line-height: 1.2;
+    font-weight: unset;
+}
+
+.orderl{
+    background-color: gray;
+    color: #fff;
+    padding: 5px;
+    margin-left: 3px;
+    border-radius: 40%;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .profiltopflex{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 85px;
+        padding: 2px;
+    }
+    .profiltopflex .but12{
+        display: flex;
+        width: 100%;
+    }
+    .but12 button{
+        width: 50%;
+        padding: 0;
+        height: 40px;
+        font-size: 12px;
+    }
+
+
+
+    /* MODIF PROFILE */
+
+    .bodypinfo1{
+        width: 100%;
+        margin: 2px;
+        padding: 1%;
+        font-size: 12px;
+    }
+    .btnmodif button{
+        height: 40px;
+        color: #fff;
+        width: 40%;
+    }
+
+    /* ORDER LIST */
+    .table100{
+        overflow-x: scroll;
+    }
+    .table100 table tr,.table100 table th{
+        font-size: 12px;
+    }
+    .tablediv2{
+        width: 100%;
+        height: 300px;
+        padding-left: 0;
+    }
+    table{
+        border-radius: 0;
+    }
+
+    .divprofileimg,.profilename,.profilemail{
+        display: none;
+    }
+}

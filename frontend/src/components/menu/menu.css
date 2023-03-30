@@ -1,0 +1,367 @@
+/* header css */
+
+.headerr{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: static;
+    float: none;
+    background-color:  #626567;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+
+.firstcolor{
+    color: #1c2833;
+}
+.categorioption{
+    height: 38px;
+}
+.categorioption select{
+    border: 0.1px solid #CED4DA;
+    height: 38px;
+    width: 150px;
+    font-size: 15px;
+    padding-left: 15px;
+    margin-right: -4px;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 0.3rem;
+}
+
+.btnsearch button{
+    border-left: none;
+    border: 0.1px solid #CED4DA;
+    background-color:  #f39c12 ;
+    color: #fff;
+    height: 38px;
+    width: 40px;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    border-bottom-left-radius: 0rem;
+    margin-left: -5px;
+}
+.profilebtn{
+    background-color:#fff;
+    border: none;
+    color: #000;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: none;
+    width: 105px;
+    height: 36px;
+    padding-top: 5px;
+}
+.profilebtn2{
+    background-color:#fff;
+    border-left: 1px solid #6C757D;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 36px;
+}
+.logo{
+    margin-right: 30px;
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+}
+.listemenu{
+    align-items: center;
+    padding-top: 5px;
+    width: 110px;
+}
+.listeitem{
+    text-decoration: none;
+}
+.login{
+    margin-left: 120px;
+}
+.menubtn{
+    display: none;
+}
+.orangec{
+    color: #F39C12;
+}
+.whitec{
+    color: #fff;
+}
+.profilebtn .profilname{
+    text-decoration: none;
+    overflow: hidden;
+    color: #000;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.profilname span{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.profilebtn3 .profilebtn3_a{
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+}
+.login-mobile,
+.categorie-mobile,
+.menupanel{
+    display: none;
+}
+
+
+
+/* test menu */
+.orangec{
+    color: #F39C12;
+}
+.whitec{
+    color: #fff;
+}
+.blackc{
+    color: #000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #626567;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    padding: 0px 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+header .logo{
+    font-weight: bolder;
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+    height: 38px;
+}
+header .navbar ul{
+    list-style: none;
+}
+header .navbar ul li{
+    position: relative;
+    float: left;
+    line-height: 14px;
+}
+header .navbar ul li a{
+    font-size: 16px;
+    padding: 10px;
+    color: #333;
+    display: block;
+    text-decoration: none;
+    height: 38px;
+    color: #fff;
+}
+header .navbar ul li a:hover{
+    color: #F39C12;
+}
+header .navbar ul li ul{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background-color: #fff;
+    display: none;
+}
+header .navbar ul li ul li{
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+header .navbar ul li ul li ul{
+    left: 150px;
+    top: 0;
+}
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul{
+    display: initial;
+}
+
+#menu-bar{
+    display: none;
+}
+header label {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    display: none;
+}
+/* categorie */
+/* .categorie{
+    
+} */
+.headerdiv{
+    display: flex;
+    height: 38px;
+}
+.categorioption{
+    height: 38px;
+}
+.categorioption select{
+    border: 0.1px solid #CED4DA;
+    height: 38px;
+    width: 110px;
+    font-size: 15px;
+    padding-left: 15px;
+    margin-right: -4px;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 0.3rem;
+}
+.navinput input{
+    width: 400px;
+    height: 38px;
+    border-left: none;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+}
+.noactiveinput input:focus{
+    box-shadow: none;
+}
+.menuli{
+    display: block;
+    text-decoration: none;
+    height: 38px;
+    margin-left: 60px;
+}
+.navbar{
+    height: 60px;
+}
+.loginbtn{
+    font-weight: bold;
+    background-color: #F39C12;
+    border-radius: 5px;
+}
+.loginbtn:hover{
+    background-color: #fff;
+}
+.profilebtn{
+    background-color:#fff;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 105px;
+    height: 36px;
+    padding: 0px;
+}
+.profilebtn .profilname{
+    font-size: 16px;
+    padding: 10px;
+    color: #333;
+    display: block;
+    text-decoration: none;
+    height: 38px;
+    color: #000;
+    font-weight: bold;
+}
+.profilebtn2{
+    background-color:#fff;
+    border-left: 1px solid #6C757D;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 36px;
+}
+.white{
+    color: #fff;
+}
+
+
+
+
+
+
+
+@media(max-width: 768px){
+    header{
+        padding: 20px;
+    }
+    header label{
+        display: initial;
+        line-height: 17px;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: bold;
+    }
+    header .navbar{
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        background: #626567;
+        border-top: 1px solid rgba(0, 0, 0, .1);
+        display: none;
+        height: auto;
+    }
+    header .navbar ul li{
+        width: 100%;
+    }
+    header .navbar ul li ul{
+        position: relative;
+        width: 100%;
+    }
+    header .navbar ul li ul li{
+        background-color: #eee;
+    }
+    header .navbar ul li ul li ul{
+        width: 100%;
+        left: 0;
+    }
+
+    #menu-bar:checked ~ .navbar{
+        display: initial;
+    }
+    .menuli{
+        display: block;
+        text-decoration: none;
+        height: 38px;
+        margin-left: 0px;
+        float: right;
+        margin-right: 41px;
+    }
+    .loginbtn{
+        font-weight: bold;
+        background-color: #F39C12;
+        border-radius: 5px;
+        width: 140px;
+    }
+    .menuli .profilebtn{
+        width: 100px;
+    }
+    .menuli .profilebtn2{
+        width: 40px;
+    }
+    .categorioption select{
+        border: 0.1px solid #CED4DA;
+        height: 38px;
+        font-size: 15px;
+        padding-left: 15px;
+        margin-right: -4px;
+        border-top-left-radius: 0.3rem;
+        border-top-right-radius: 0rem;
+        border-bottom-right-radius: 0rem;
+        border-bottom-left-radius: 0.3rem;
+    }
+    .navinput input{
+        width: 150px;
+        height: 38px;
+        border-left: none;
+        border-top-left-radius: 0rem;
+        border-top-right-radius: 0rem;
+        border-bottom-right-radius: 0rem;
+        border-bottom-left-radius: 0rem;
+    }
+}

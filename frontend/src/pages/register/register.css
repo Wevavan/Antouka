@@ -1,0 +1,82 @@
+.register{
+    display: flex;
+    margin-top: 144px;
+    justify-content: center;
+}
+
+.leftregister{
+    width: 30%;
+    margin-right: 3%;
+}
+
+.rightregister{
+    width: 40%;
+}
+.form{
+    width: 50%;
+}
+
+
+.carousel_a .cadre,
+.carousel_a .cadre2,
+.carousel_a .cadre3,
+.carousel_a .cadre4{
+    height: 420px;
+    border-radius: 40px;
+}
+.carousel_a .cadre{
+    background-color: #FFD700;
+}
+.carousel_a .cadre2{
+    background-color:#154360;
+}
+.carousel_a .cadre3{
+    background-color: #198754;
+}
+.carousel_a .cadre4{
+    background-color:#5C636A;
+}
+
+.carousel_a img{
+    height: 500px;
+    border-radius: 40px;
+}
+
+
+.lien{
+    text-decoration: none;
+    color: #198754;
+}
+
+.carousel-control-next-icon{
+    width: 0;
+}
+
+.forgetpass{
+    text-align: right;
+    margin-bottom: 15%;
+}
+.btnok{
+    width: 100%;
+}
+.lienregister{
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .register{ 
+        margin-top: 144px;
+        margin-left: 10%;
+    }
+    .leftregister{
+        display: none;
+    }
+    .rightregister{
+        width: 100%;
+    }
+    .rightregister .form{
+        width: 90%;
+    }
+}

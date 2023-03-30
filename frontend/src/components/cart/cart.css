@@ -1,0 +1,201 @@
+.cartetable{
+    color: #000;
+    padding-top: 15%;
+    padding-bottom: 90px;
+    height: auto;
+}
+.caseimgcarte img{
+    width: 125px;
+    height: 140px;
+}
+.casedescriptioncarte span{
+    font-size: small;
+}
+
+.caseprixcarte span{
+    font-size: small;
+}
+.cartitemrow .casedescriptioncarte,
+.cartitemrow .casequantitecarte,
+.cartitemrow .caseprixcarte,
+.cartitemrow .caseprixcarte
+{
+    border-bottom: 1px solid;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+.cartitemrow .caseimgcarte{
+    border-bottom: none;
+}
+
+.caseprixcarte button:hover{
+    background-color: #d9534f;
+    color: #fff;
+}
+.caseprixcarte button:focus{
+    box-shadow: none;
+}
+.caseprixcarte2 button:focus{
+    box-shadow: none;
+}
+
+.buttoncheckout button:hover{
+    background-color: #5cb85c;
+    color: #fff;
+    font-weight: bold;
+    transition: all 1s;
+    transform: scale(1.1);
+}
+.buttoncheckout button:focus{
+    box-shadow: none;
+}
+
+.casequantitecarte input{
+    width: 80px;
+    padding-left: 10px;
+    border: 1px solid #676774;
+    border-radius: 5px;
+}
+/* .casequantitecarte input:focus{
+    
+} */
+.paniervideimgdiv img{
+    border: 0.1px solid#EAEDED;
+    width: 300px;
+    height: 230px;
+}
+.paniervide{
+    display: flex;
+    background-color:#EAEDED;
+}
+.paniervidetext{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.paniervidetext .pt1{
+    font-size: 24px;
+    font-weight: bold;
+}
+.cartitemrow{
+    display: flex;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+.grp1{
+    width: 50%;
+    display: flex;
+}
+.grp2{
+    width: 50%;
+    display: flex;
+}
+.caseimgcarte{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.casedescriptioncarte{
+    width: 100%;
+}
+.casequantitecarte{
+    width: 100%;
+}
+.caseprixcarte{
+    width: 100%;
+}
+.casedeleteitem{
+    width: 100%;
+}
+
+.cartitemrow .casedescriptioncarte, .cartitemrow .casequantitecarte, .cartitemrow .caseprixcarte, .cartitemrow .caseprixcarte{
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .paniervide{
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color:#EAEDED;
+    }
+    .paniervideimgdiv img{
+        border: 0.1px solid#EAEDED;
+        width: 350px;
+        height: 280px;
+    }
+    .paniervidetext .pt1{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .cartetable{
+        color: #000;
+        padding-top: 15%;
+        padding-bottom: 50px;
+        height: auto;
+    }
+
+
+
+    .cartitemrow{
+        display: flex;
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        margin-top: 44px;
+        margin-right: calc(-.5 * var(--bs-gutter-x));
+        margin-left: calc(-.5 * var(--bs-gutter-x));
+    }
+    .grp1{
+        width: 80%;
+        display: block;
+    }
+    .grp2{
+        display: block;
+    }
+    /* .casequantitecarte{
+        display: none;
+    } */
+    /* .caseprixcarte{
+        display: none;
+    } */
+
+    .caseimgcarte{
+        display: flex;
+        justify-content: center;
+        margin-left: 10%;
+        width: 60%;
+    }
+    .casedescriptioncarte{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+
+
+
+    .cartitemrow .casedescriptioncarte, .cartitemrow .casequantitecarte, .cartitemrow .caseprixcarte, .cartitemrow .caseprixcarte{
+        border-bottom: 1px solid;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+    }
+
+    /* .cartitemrow .casequantitecarte, .cartitemrow .caseprixcarte{
+        border-bottom: none;
+    } */
+}

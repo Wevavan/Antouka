@@ -1,0 +1,178 @@
+.placeorderplace{
+    margin-top: 3%;
+    padding-top: 2%;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow-x: hidden;
+}
+.placeo{
+    width: 90%;
+}
+.order-detail{
+    background-color: rgba(25, 135, 84, 0.3);
+    padding-top: 25px;
+    padding-bottom: -25px;
+    border-radius: 3px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+.order-detail1,
+.order-detail2,
+.order-detail3{
+    width: 32%;
+}
+.sous-order-detail{
+    display: flex;
+}
+
+.order-box{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.order-box i{
+    font-size: 22px;
+    padding-top: 33%;
+    padding-left: 37%;
+}
+
+.order-products{
+    display: flex;
+    width: 100%;
+}
+.order-productpo{
+    display: flex;
+    padding-left: 2px;
+    padding-right: 5px;
+    border-left: 2px solid #626567;
+    margin-top: 3%;
+}
+.sous-order-product{
+    display: flex;
+    width: 50%;
+}
+.orderqty{
+    padding-top: 16.5px;
+}
+.sous-order-product .image,
+.sous-order-product .textop,
+.sous-order-product .orderqty,
+.sous-order-product .ordertot{
+    width: 50%;
+}
+.order-products-part1{
+    width: 70%;
+}
+.order-products-part2{
+    width: 30%;
+}
+
+.order-productpo .image img{
+    width: 70px;
+    height: 70px;
+}
+.order-productpo h4{
+    font-size: 14px;
+}
+.order-productpo h6{
+    font-size: 12px;
+}
+
+.order-products table{
+    background-color: #F8F9FA;
+}
+.order-products table td{
+    font-size: 13px;
+}
+
+.order-products button{
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: #198754;
+}
+.order-products .nounderline{
+    text-decoration: none;
+}
+.order-products .colorcendre{
+    color: #4A4A4B;
+}
+
+.etapayer,
+.etaplivrer{
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .placeorderplace{
+        margin-top: 18%;
+        justify-content: flex-start;
+        /* flex-wrap: nowrap;
+        align-items: flex-start; */
+    }
+    .placeo{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .order-detail{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sous-order-detail2{
+        padding-left: 5%;
+        padding-bottom: 5%;
+    }
+    .order-detail1,
+    .order-detail2,
+    .order-detail3{
+        width: 100%;
+    }
+    .order-products{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .order-products-part1{
+        width: 100%;
+    }
+
+    .sous-order-product{
+        width: 60%;
+    }
+    .sous-order-product .image{
+        margin-bottom: 6%;
+    }
+
+    .order-productpo{
+        border-left: none;
+    }
+
+
+
+
+
+
+    .order-products-part2{
+        margin-top: 10%;
+        margin-left: 5%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
